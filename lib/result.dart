@@ -5,10 +5,10 @@ class Result {
   final height;
   final weight;
 
-   double _bmi = 0;
+  double _bmi = 0;
 
   String calculateBMI() {
-     _bmi = weight / pow(height / 100, 2);
+    _bmi = weight / pow(height / 100, 2);
     return _bmi.toStringAsFixed(1);
   }
 
